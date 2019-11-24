@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.com/kidc12/Node.js-Agent-Developer-Project.svg?branch=master)](https://travis-ci.com/kidc12/Node.js-Agent-Developer-Project)
-# Node.js Agent Developer Project
-Code Written by Javon Kitson :octocat: 
+# Node.js Agent Developer Project [![Build Status](https://travis-ci.com/kidc12/Node.js-Agent-Developer-Project.svg?branch=master)](https://travis-ci.com/kidc12/Node.js-Agent-Developer-Project)
+Code Written by Javon Kitson :octocat:  
 
 ## Purpose
 

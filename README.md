@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/kidc12/Node.js-Agent-Developer-Project.svg?branch=master)](https://travis-ci.com/kidc12/Node.js-Agent-Developer-Project)
 # Node.js Agent Developer Project
 Code Written by Javon Kitson :octocat: 
 
@@ -14,7 +15,7 @@ Code Written by Javon Kitson :octocat:
 
 
 ## What was used?
-Nodejs
+NodeJS, ExpressJS, New Relic
 
 ## Notes
 - [ ] build the beginnings of a Node.js agent
@@ -28,15 +29,17 @@ Nodejs
     - [ ] Time the request from start to finish.
     - [ ] How much memory does a single page request take?
     - [ ] How many modules were loaded?
+- [ ] Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log).
+- [ ] Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application.
 
 ### Additional Requirements
 
 - [ ] Unit tests
 - [ ] amazing README
-    - what you built
-    - why you built it
-    - how to deploy it
-    - how to use it
+    - what you built ( how it works)
+    - why you built it (Purpose)
+    - how to deploy it (Setup)
+    - how to use it (How to run)
 
 ### Bonus
 - [ ] Show metrics on the page or a separate app/webpage

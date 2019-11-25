@@ -13,6 +13,7 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "newrelic": "^6.1.0",
+    "node-uuid": "^1.4.8",
     "semver": "^6.3.0"
   }
 }

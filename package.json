@@ -1,9 +1,10 @@
 {
-  "name": "test",
-  "version": "0.0.0",
+  "name": "node-js-project",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "node ./node_modules/.bin/mocha"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,5 +16,10 @@
     "newrelic": "^6.1.0",
     "node-uuid": "^1.4.8",
     "semver": "^6.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "request": "^2.88.0"
   }
 }

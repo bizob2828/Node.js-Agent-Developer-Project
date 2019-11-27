@@ -8,10 +8,10 @@ Code Written by Javon Kitson :octocat:
 
 
 ## Setup
-
+```npm install```
 
 ## How to run
-
+```npm start```
 
 ## What was used?
 NodeJS, ExpressJS, New Relic

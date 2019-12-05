@@ -27,14 +27,14 @@ NodeJS, ExpressJS
 - [ ] Explore (2 out of 3) data points specifically:
     - [x] Time the request from start to finish.
     - [ ] How much memory does a single page request take?
-    - [ ] How many modules were loaded?
+    - [x] How many modules were loaded?
 - [ ] Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log).
 - [x] Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application.
 
 ### Additional Requirements
 
-- [ ] Unit tests
-- [ ] amazing README
+- [x] Unit tests
+- [x] amazing README
     - what you built ( how it works)
     - why you built it (Purpose)
     - how to deploy it (Setup)

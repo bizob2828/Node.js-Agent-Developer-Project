@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+
 var DATA = false;
 
 if (process.argv.slice(2)[0] == "data") {
@@ -25,6 +26,7 @@ if (DATA) {
 } else {
   app.use(logger('DATA: :method :status'));
 }
+
 
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));

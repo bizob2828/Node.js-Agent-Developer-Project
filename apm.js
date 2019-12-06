@@ -1,12 +1,6 @@
 function getUser() {
     // Code here
 }
-
-function getUsers() {
-    // Code here
-}
-
-module.exports = {
-    getUser,
-    getUsers
+exports.getData = function(req) {
+    console.log("ID: " + req.ip + ' ' + req.headers['user-agent'] + '\n' + "Module Num: " + Object.keys(require('module')._cache).length);
 }

@@ -21,11 +21,11 @@ if (process.argv.slice(2)[0] == "data") {
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-if (DATA) {
-  app.use(logger('DATA: :method :url :status :res[content-length] Request-Time: :response-time ms'));
-} else {
-  app.use(logger('DATA: :method :status'));
-}
+// if (DATA) {
+//   app.use(logger('DATA: :method :url :status :res[content-length] Request-Time: :response-time ms'));
+// } else {
+//   app.use(logger('DATA: :method :status'));
+// }
 
 
 app.use(express.json());

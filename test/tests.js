@@ -1,14 +1,10 @@
-var expect = require('chai').expect;
-var request = require('request');
-
-let chai = require('chai');
-let chaiHttp = require('chai-http');
+var chai = require('chai');
+var chaiHttp = require('chai-http');
 
 should = chai.should();
-
 chai.use(chaiHttp);
 
-let server = require('../app');
+var server = require('../app');
 
 describe('Status and content', function () {
     describe('Main page', function () {
@@ -36,7 +32,7 @@ describe('Status and content', function () {
             chai.request(server)
                 .get('/about')
                 .end((err, res) => {
-                    (res).should.have.status(404);
+                    (res).should.have.status(200);
                     done();
                 });
         });

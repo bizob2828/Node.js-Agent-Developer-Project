@@ -1,14 +1,13 @@
 var express = require('express');
 var router = express.Router();
-var dt = require('../apm.js');
+var data = require('../apm.js');
 
 /* GET home page. */
+/* Show data from apm.js if data is true*/
 router.get('/', function(req, res, next) {
-  dt.getData(req);
+  if(DATA){data.getData(req);}
+  if(DATA){data.getMem();}
   res.render('index', { title: 'Node APM' });
-  const used = process.memoryUsage().heapUsed / 1024 / 1024;
-  console.log(`The script uses approximately ${Math.round(used * 100) / 100} MB`);
-
 });
 
 module.exports = router;

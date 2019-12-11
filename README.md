@@ -26,18 +26,3 @@ If you're already using an apache server I reccomend following this tutorial on 
 *these are just the notable modules*
 
 NodeJS, ExpressJS, Mocha, Chai, Ejs
-
-## Notes
-- [x] build the beginnings of a Node.js agent
-- [X] The agent will simply have to be configured into the runtime of a Express application and perform some very basic instrumentation.
-- [X] APM technology like New Relic
-
-## Requirements 
-- [ ] Count how many string objects were created for an API request.
-- [X] Instrument the response to include a unique ID
-- [X] Explore (2 out of 3) data points specifically:
-    - [x] Time the request from start to finish.
-    - [X] How much memory does a single page request take?
-    - [x] How many modules were loaded?
-- [X] Provide an interface that instruments the application to answer the questions above (preferably both to an endpoint, console and log).
-- [x] Ideally, the interface is a flag or switch that can be turned on/off as part of the startup of the application.

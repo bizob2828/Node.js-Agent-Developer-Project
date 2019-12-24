@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var data = require('../apm.js');
+var data = require('../apm/apm.js');
 
 /* GET home page. */
 /* Show data from apm.js if data is true*/
